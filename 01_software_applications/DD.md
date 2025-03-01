@@ -38,7 +38,7 @@ dd if=/dev/ad0 of=/dev/ad1 bs=64M conv=noerror
 Creates an ISO disk image from: CD, DVD or Blu-Ray
 
 ```Bash
-blocks=$(isosize -d 2048 /dev/sr0)<br>
+blocks=$(isosize -d 2048 /dev/sr0)
 ```
 ### Restore a hard disk drive from image
 
